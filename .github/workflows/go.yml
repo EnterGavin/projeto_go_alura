@@ -29,7 +29,7 @@ jobs:
       with:
           version: v2.0
           args: controllers/ database/ models/ routes/
-    - name: test
+    - name: teste
       run: |
         DB_HOST=${{ secrets.DB_HOST }} \
         DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
